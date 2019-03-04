@@ -1,0 +1,9 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    char i, j;
+    scanf("%c %c", &i , &j);
+    printf("%c %c", j , i);
+ 
+}
