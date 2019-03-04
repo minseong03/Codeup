@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{
+	int a;
+	scanf("%d", &a);
+
+	if (a > 0)
+	{
+		printf("plus");
+		printf("\n");
+		{
+			if (a % 2 == 0)
+			{
+				printf("even");
+			}
+
+			if (a % 2 == 1)
+			{
+				printf("odd");
+			}
+		}
+	}
+
+
+	if (a < 0)
+	{
+		printf("minus");
+		printf("\n");
+		{
+			if (a % 2 == 0)
+			{
+				printf("even");
+			}
+
+			if (a % 2 == 1)
+			{
+				printf("odd");
+			}
+		}
+	}
+	
+
+	return 0;
+}
